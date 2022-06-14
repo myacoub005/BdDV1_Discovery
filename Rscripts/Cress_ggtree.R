@@ -104,3 +104,50 @@ p <- p1 %<+% tip_metadata + geom_tippoint(aes(color=Host), size=3) +
   scale_color_manual(values = c("skyblue4", "red3", "forestgreen", "goldenrod3", "plum4")) + theme_tree2(legend.position="bottom")
 
 plot(p)
+
+
+#####Let's try to add in the node support values ######
+tree <- read.tree("CRESS.itol.tree.txt")
+tree
+##re-root the tree at geminiviridae clade
+tree2 <- phytools::reroot(tree, 121)
+
+tipnames <- tree2$tip.label
+tipnames
+tip_metadata <- read.table("CRESS_metadata.tab", sep="\t", header=TRUE,check.names=FALSE, stringsAsFactor=F)
+tip_metadata
+to_drop <- setdiff(tree2$tip.label, rownames(geneCopies))
+to_drop
+straintree <- drop.tip(tree2, to_drop)
+tipnames <- straintree$tip.label
+tipnames
+
+p1 <- ggtree(straintree, layout="circular") +
+  geom_nodelab(size=2, vjust = -0.5) +
+  geom_tiplab(size=2, color="black", offset = 1) + 
+  #geom_text2(aes(subset=!isTip, label=node)) +
+  geom_cladelab(node=134, label="Geminiviridae", angle=-40, fontsize=5, offset.text=1, vjsut=-5, hjust=0.5, offset=15) +
+  geom_cladelab(node=79, label="Circoviridae", angle=70, fontsize=5, offset.text=1, vjsut=-1.5, hjust=0.5, offset=15) +
+  geom_cladelab(node=105, label="Genomoviridae", angle=380, fontsize=5, offset.text=1, vjsut=2.5, hjust=0.5, offset=15)
+
+p1
+
+p <- p1 %<+% tip_metadata + geom_tippoint(aes(color=Host), size=3) +
+  scale_color_manual(values = c("skyblue4", "red3", "forestgreen", "goldenrod3", "plum4"))
+
+plot(p)
+
+p1 <- ggtree(straintree, layout="rectangular") +
+  geom_nodelab(size=2) +
+  geom_tiplab(size=3, color="black", offset=.1) + 
+  #geom_text2(aes(subset=!isTip, label=node)) +
+  geom_cladelab(node=134, label="Geminiviridae", fontsize=3, offset.text=0.5, vjsut=-5, hjust=0.5, offset=2) +
+  geom_cladelab(node=79, label="Circoviridae", fontsize=3, offset.text=0.5, vjsut=-1.5, hjust=0.5, offset=1.2) +
+  geom_cladelab(node=105, label="Genomoviridae", fontsize=3, offset.text=0.5, vjsut=2.5, hjust=0.5, offset=2)
+
+p1
+
+p <- p1 %<+% tip_metadata + geom_tippoint(aes(color=Host), size=3) +
+  scale_color_manual(values = c("skyblue4", "red3", "forestgreen", "goldenrod3", "plum4")) + theme_tree2(legend.position="bottom")
+
+plot(p)
