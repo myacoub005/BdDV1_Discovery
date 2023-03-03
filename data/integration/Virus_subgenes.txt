@@ -1,0 +1,6 @@
+organism	gene	start	end	strand	subgene	from	to	orientation
+BdDV1	REP	21689	22605	forward	REP_exon	21689	22605	1
+BdDV1	CAP	22642	23510	reverse	CAP_exon1	23481	23510	-1
+BdDV1	CAP	22642	23510	reverse	CAP_exon2	22642	23373	-1
+BdDV1	ORF3	23863	24569	forward	ORF3_exon1	23863	24569	1
+BdDV1	ORF4	24849	25472	forward	ORF4_exon1	24849	25472	1

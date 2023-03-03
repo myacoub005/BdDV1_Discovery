@@ -1,0 +1,5 @@
+organism	gene	start	end	strand	orientation
+BdDV1	REP	21689	22605	forward	1
+BdDV1	CAP	22642	23510	reverse	-1
+BdDV1	ORF3	23863	24569	forward	1
+BdDV1	ORF4	24849	25472	forward	1

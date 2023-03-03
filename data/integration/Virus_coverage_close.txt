@@ -1,0 +1,8 @@
+seq_id	start	end	strand	Organism
+scaffold_10	21689	22605	+	BdDV1
+scaffold_10	22642	23510	-	BdDV1
+scaffold_10	23863	24569	+	BdDV1
+scaffold_10	24849	25472	+	BdDV1
+scaffold_10	27314	28583	-	CLFT044
+scaffold_10	29396	33369	+	CLFT044
+scaffold_10	36073	36396	-	CLFT044

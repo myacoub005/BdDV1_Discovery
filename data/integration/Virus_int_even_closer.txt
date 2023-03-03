@@ -1,0 +1,9 @@
+organism	Scaffold_10	locus	gene	start	end	strand	orientation
+CLFT044	Scaffold_10	Telomere	Telomere	1	321	+	1
+CLFT044	Scaffold_10	rDNA	rDNA	16642	20943	+	1
+BdDV1	Scaffold_10	MT418_005621 (REP)	REP	21827	22742	+	1
+BdDV1	Scaffold_10	MT418_005622 (CAP)	CAP	22779	23729	-	-1
+BdDV1	Scaffold_10	MT418_005623 (ORF3)	ORF3	24000	24706	+	1
+BdDV1	Scaffold_10	MT418_005624 (ORF4)	ORF4	24986	25609	+	1
+CLFT044	Scaffold_10	MT418_8451 (GAG_pre-integrase)	GAG_pre-integrase	29396	33438	+	1
+CLFT044	Scaffold_10	MT418_008452 (BATDEDRAFT_86465)	BDEG_23852	36211	36534	-	-1
