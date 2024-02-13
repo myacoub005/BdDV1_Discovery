@@ -21,6 +21,6 @@ samtools sort $OUTDIR/${BASE}.bam > $OUTDIR/${BASE}.sorted.bam
 
 samtools mpileup $OUTDIR/${BASE}.sorted.bam | awk '{print $1"\t"$2"\t"$4}' > $OUTDIR/coverage.res.tsv
 
-#samtools sort CLFT044.bam > CLFT044.sorted.bam
+samtools sort CLFT044.bam > CLFT044.sorted.bam
 
-#samtools mpileup CLFT044.sorted.bam | awk '{print $1"\t"$2"\t"$4}' > coverage.res.tsv
+samtools mpileup CLFT044.sorted.bam | awk '{print $1"\t"$2"\t"$4}' > coverage.res.tsv
