@@ -29,10 +29,7 @@ OUT=ref_aln
 COV=coverage
 SAMPLEFILE=samples_PE.dat
 
-#Now add the viral genes to the ref genome
-cat ~/shared/projects/Chytrid/BdVirus/assembled_TF5a1.cds >> genome/GCA_000149865.1_BD_JEL423_genomic_BdDV1.fa
-
-REF=genome/GCA_000149865.1_BD_JEL423_genomic_BdDV1.fa
+REF=genome/GCA_000149865.1_BD_JEL423_genomic.fa
 REFBED=genome/chroms.bed
 if [ ! -f $REF.bwt ]; then
     bwa index $REF
