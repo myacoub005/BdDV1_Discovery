@@ -1,0 +1,66 @@
+IQ-TREE multicore version 2.1.1 COVID-edition for Linux 64-bit built Aug 22 2020
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    i30 (AVX2, FMA3, 503 GB RAM)
+Command: iqtree2 -m GTR+ASC -s strain_tree/Bd_1.BdAsia.SNP.mfa -nt AUTO -bb 1000 -alrt 1000
+Seed:    580416 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Thu May 27 03:37:34 2021
+Kernel:  AVX+FMA - auto-detect threads (6 CPU cores detected)
+
+Reading alignment file strain_tree/Bd_1.BdAsia.SNP.mfa ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 12 sequences with 160642 columns, 15587 distinct patterns
+134627 parsimony-informative, 26015 singleton sites, 0 constant sites
+            Gap/Ambiguity  Composition  p-value
+   1  KB23          0.94%    failed      0.00%
+   2  CM22          0.23%    failed      0.00%
+   3  KBO_319       0.84%    passed     95.17%
+   4  KB45          0.96%    failed      0.00%
+   5  KRBOOR_331    1.24%    failed      0.00%
+   6  KB347         1.16%    passed     95.70%
+   7  KB108         1.01%    failed      0.00%
+   8  KRBOOR_317    1.24%    failed      0.00%
+   9  KBO_327       1.32%    failed      0.00%
+  10  KRBOOR_323    0.87%    failed      0.00%
+  11  KB72          1.03%    failed      0.00%
+  12  KBO_317       1.37%    failed      0.00%
+****  TOTAL         1.02%  10 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: minimal branch length is reduced to 0.000000622502 for long alignment
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.049 seconds
+Generating 1000 samples for ultrafast bootstrap (seed: 580416)...
+
+NOTE: 65 MB RAM (0 GB) is required!
+Measuring multi-threading efficiency up to 6 CPU cores
+Increase to 10 rounds for branch lengths
+44 trees examined
+Threads: 1 / Time: 6.052 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -1829464
+Threads: 2 / Time: 3.403 sec / Speedup: 1.778 / Efficiency: 89% / LogL: -1829464
+Threads: 3 / Time: 3.208 sec / Speedup: 1.886 / Efficiency: 63% / LogL: -1829464
+Threads: 4 / Time: 2.409 sec / Speedup: 2.512 / Efficiency: 63% / LogL: -1829464
+Threads: 5 / Time: 2.111 sec / Speedup: 2.866 / Efficiency: 57% / LogL: -1829464
+Threads: 6 / Time: 3.350 sec / Speedup: 1.807 / Efficiency: 30% / LogL: -1829464
+BEST NUMBER OF THREADS: 5
+
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -1425648.294
+2. Current log-likelihood: -1216589.683
+3. Current log-likelihood: -1212823.147
+4. Current log-likelihood: -1212795.720
+5. Current log-likelihood: -1212795.339
+6. Current log-likelihood: -1212795.146
+Optimal log-likelihood: -1212795.128
+Rate parameters:  A-C: 1.00394  A-G: 12.34178  A-T: 0.47046  C-G: 0.30261  C-T: 12.03151  G-T: 1.00000
+Base frequencies:  A: 0.239  C: 0.262  G: 0.258  T: 0.242
+Parameters optimization took 6 rounds (0.496 sec)
+Computing ML distances based on estimated model parameters...
+Computing ML distances took 0.003238 sec (of wall-clock time) 0.016138 sec(of CPU time)
+Computing RapidNJ tree took 0.000905 sec (of wall-clock time) 0.004326 sec (of CPU time)
+ERROR: Alignment sequence KB23 does not appear in the tree
+ERROR: Alignment sequence CM22 does not appear in the tree
+ERROR: Alignment sequence KB45 does not appear in the tree
+ERROR: Alignment sequence KB108 does not appear in the tree
+ERROR: Alignment sequence KB72 does not appear in the tree
+(KRBOOR_317,KBO_317,((KBO_327,(KRBOOR_323,KRBOOR_331)),(KBO_319,KB347)));
+ERROR: Tree taxa and alignment sequence do not match (see above)

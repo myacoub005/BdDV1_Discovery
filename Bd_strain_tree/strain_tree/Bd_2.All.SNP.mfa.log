@@ -1,0 +1,737 @@
+IQ-TREE multicore version 2.2.0.5 COVID-edition for Linux 64-bit built Jul 18 2022
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams, Ly Trong Nhan.
+
+Host:    c25 (AVX, FMA3, 503 GB RAM)
+Command: iqtree2 -s Bd_2.All.SNP.mfa -m GTR+ASC -st DNA -B 1000 --alrt 1000 -nt AUTO
+Seed:    990498 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Tue Sep 13 22:07:46 2022
+Kernel:  AVX+FMA - auto-detect threads (6 CPU cores detected)
+
+Reading alignment file Bd_2.All.SNP.mfa ... Fasta format detected
+Reading fasta file: done in 0.000189968 secs using 10% CPU
+Constructing alignment: done in 3.99305e-06 secs using 25.04% CPU
+Alignment has 359 sequences with 0 columns, 0 distinct patterns
+0 parsimony-informative, 0 singleton sites, -2147483648 constant sites
+                       Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.00475735 secs using 204.1% CPU
+   1  BdJEL423-REF             -nan%    passed      -nan%
+   2  02.OZ                    -nan%    passed      -nan%
+   3  03.OZ                    -nan%    passed      -nan%
+   4  06.OZ                    -nan%    passed      -nan%
+   5  07.OZ                    -nan%    passed      -nan%
+   6  0710_1                   -nan%    passed      -nan%
+   7  0711.1                   -nan%    passed      -nan%
+   8  11.OZ                    -nan%    passed      -nan%
+   9  0739                     -nan%    passed      -nan%
+  10  09.OZ                    -nan%    passed      -nan%
+  11  08MG05                   -nan%    passed      -nan%
+  12  12.OZ                    -nan%    passed      -nan%
+  13  18.OZ                    -nan%    passed      -nan%
+  14  08MG02                   -nan%    passed      -nan%
+  15  20.OZ                    -nan%    passed      -nan%
+  16  13.OZ                    -nan%    passed      -nan%
+  17  15.OZ                    -nan%    passed      -nan%
+  18  25.OZ                    -nan%    passed      -nan%
+  19  14.OZ                    -nan%    passed      -nan%
+  20  23.OZ                    -nan%    passed      -nan%
+  21  22.OZ                    -nan%    passed      -nan%
+  22  24.OZ                    -nan%    passed      -nan%
+  23  28.OZ                    -nan%    passed      -nan%
+  24  16.OZ                    -nan%    passed      -nan%
+  25  30.OZ                    -nan%    passed      -nan%
+  26  33.OZ                    -nan%    passed      -nan%
+  27  34.OZ                    -nan%    passed      -nan%
+  28  35.OZ                    -nan%    passed      -nan%
+  29  37.OZ                    -nan%    passed      -nan%
+  30  36.OZ                    -nan%    passed      -nan%
+  31  38.OZ                    -nan%    passed      -nan%
+  32  41.OZ                    -nan%    passed      -nan%
+  33  42.OZ                    -nan%    passed      -nan%
+  34  40.OZ                    -nan%    passed      -nan%
+  35  39.OZ                    -nan%    passed      -nan%
+  36  45.OZ                    -nan%    passed      -nan%
+  37  43.OZ                    -nan%    passed      -nan%
+  38  44.OZ                    -nan%    passed      -nan%
+  39  49.OZ                    -nan%    passed      -nan%
+  40  47.OZ                    -nan%    passed      -nan%
+  41  ANS_13No10               -nan%    passed      -nan%
+  42  ANS_13No12               -nan%    passed      -nan%
+  43  ANS_13No7                -nan%    passed      -nan%
+  44  ACON_CH                  -nan%    passed      -nan%
+  45  AP15_IT                  -nan%    passed      -nan%
+  46  46.OZ                    -nan%    passed      -nan%
+  47  ADMALA                   -nan%    passed      -nan%
+  48  ANS_13No1                -nan%    passed      -nan%
+  49  ANS_13No4                -nan%    passed      -nan%
+  50  APEP_CH                  -nan%    passed      -nan%
+  51  AVS2                     -nan%    passed      -nan%
+  52  AVS4                     -nan%    passed      -nan%
+  53  Acherito.4.1_15          -nan%    passed      -nan%
+  54  Acherito.c_15            -nan%    passed      -nan%
+  55  Acherito.1.2_15          -nan%    passed      -nan%
+  56  AUL_FR                   -nan%    passed      -nan%
+  57  AVS7                     -nan%    passed      -nan%
+  58  Acherito.3.1_15          -nan%    passed      -nan%
+  59  Acherito.5.2_15          -nan%    passed      -nan%
+  60  Ansabere.6.1_15          -nan%    passed      -nan%
+  61  AoCH15_B                 -nan%    passed      -nan%
+  62  Acherito.d_15            -nan%    passed      -nan%
+  63  Arlet.K_15               -nan%    passed      -nan%
+  64  BAV_BRUCH_1              -nan%    passed      -nan%
+  65  Arlet.a_15               -nan%    passed      -nan%
+  66  Arlet_13No6              -nan%    passed      -nan%
+  67  Arlet_13No1              -nan%    passed      -nan%
+  68  Arlet_13No4              -nan%    passed      -nan%
+  69  BAV_OBER_2               -nan%    passed      -nan%
+  70  BAV_OBER_1               -nan%    passed      -nan%
+  71  Arlet_13No8              -nan%    passed      -nan%
+  72  Arlet_13No2              -nan%    passed      -nan%
+  73  BAV_OBER_3               -nan%    passed      -nan%
+  74  BEW2_CH                  -nan%    passed      -nan%
+  75  BLI1_CH                  -nan%    passed      -nan%
+  76  BdBE1                    -nan%    passed      -nan%
+  77  BdBE5                    -nan%    passed      -nan%
+  78  BdBE3                    -nan%    passed      -nan%
+  79  BdNL1                    -nan%    passed      -nan%
+  80  BdBE4                    -nan%    passed      -nan%
+  81  BdBE6                    -nan%    passed      -nan%
+  82  BdBE2                    -nan%    passed      -nan%
+  83  BR1_CH                   -nan%    passed      -nan%
+  84  Bd_Aus1                  -nan%    passed      -nan%
+  85  Bd_Aus2                  -nan%    passed      -nan%
+  86  Bd_Aus3                  -nan%    passed      -nan%
+  87  Bd_Aus6                  -nan%    passed      -nan%
+  88  Bd_Aus8                  -nan%    passed      -nan%
+  89  Bd_Aus4                  -nan%    passed      -nan%
+  90  Bd_Aus5                  -nan%    passed      -nan%
+  91  Bd_JEL253                -nan%    passed      -nan%
+  92  CCB15                    -nan%    passed      -nan%
+  93  Bd_Aus9                  -nan%    passed      -nan%
+  94  CAE2                     -nan%    passed      -nan%
+  95  CH4_CH                   -nan%    passed      -nan%
+  96  Bd_RTP5                  -nan%    passed      -nan%
+  97  CCB1                     -nan%    passed      -nan%
+  98  CHAL3_CH                 -nan%    passed      -nan%
+  99  CJB4                     -nan%    passed      -nan%
+ 100  CJB7                     -nan%    passed      -nan%
+ 101  CJB5                     -nan%    passed      -nan%
+ 102  CLFT001                  -nan%    passed      -nan%
+ 103  CLFT021                  -nan%    passed      -nan%
+ 104  CLFT024                  -nan%    passed      -nan%
+ 105  CLFT023                  -nan%    passed      -nan%
+ 106  CLFT026                  -nan%    passed      -nan%
+ 107  CLFT037                  -nan%    passed      -nan%
+ 108  CLFT024-02               -nan%    passed      -nan%
+ 109  CLFT061                  -nan%    passed      -nan%
+ 110  CLFT044                  -nan%    passed      -nan%
+ 111  CLFT048                  -nan%    passed      -nan%
+ 112  CLFT043                  -nan%    passed      -nan%
+ 113  CLFT062                  -nan%    passed      -nan%
+ 114  CLFT060                  -nan%    passed      -nan%
+ 115  CLFT065                  -nan%    passed      -nan%
+ 116  CLFT039                  -nan%    passed      -nan%
+ 117  CLFT063                  -nan%    passed      -nan%
+ 118  CLFT045                  -nan%    passed      -nan%
+ 119  CLFT067                  -nan%    passed      -nan%
+ 120  CLFT068                  -nan%    passed      -nan%
+ 121  CLFT070                  -nan%    passed      -nan%
+ 122  CLFT071                  -nan%    passed      -nan%
+ 123  CLFT085                  -nan%    passed      -nan%
+ 124  CLFT073                  -nan%    passed      -nan%
+ 125  CLFT082                  -nan%    passed      -nan%
+ 126  CLFT075                  -nan%    passed      -nan%
+ 127  CLFT078                  -nan%    passed      -nan%
+ 128  CLFT080                  -nan%    passed      -nan%
+ 129  CLFT095                  -nan%    passed      -nan%
+ 130  CLFT086                  -nan%    passed      -nan%
+ 131  CLFT088                  -nan%    passed      -nan%
+ 132  CLFT097                  -nan%    passed      -nan%
+ 133  CLFT100                  -nan%    passed      -nan%
+ 134  CLFT101                  -nan%    passed      -nan%
+ 135  CLFT120                  -nan%    passed      -nan%
+ 136  CLFT107                  -nan%    passed      -nan%
+ 137  CLFT111                  -nan%    passed      -nan%
+ 138  CLFT114                  -nan%    passed      -nan%
+ 139  CLFT129                  -nan%    passed      -nan%
+ 140  CLFT130                  -nan%    passed      -nan%
+ 141  CLFT132                  -nan%    passed      -nan%
+ 142  CLFT123                  -nan%    passed      -nan%
+ 143  CLFT131                  -nan%    passed      -nan%
+ 144  CLFT126                  -nan%    passed      -nan%
+ 145  CLFT133                  -nan%    passed      -nan%
+ 146  CLFT136                  -nan%    passed      -nan%
+ 147  CLFT138                  -nan%    passed      -nan%
+ 148  CLFT152                  -nan%    passed      -nan%
+ 149  CLFT144                  -nan%    passed      -nan%
+ 150  CLFT148                  -nan%    passed      -nan%
+ 151  CLFT139                  -nan%    passed      -nan%
+ 152  CLFT157                  -nan%    passed      -nan%
+ 153  CLFT156                  -nan%    passed      -nan%
+ 154  CLFT160                  -nan%    passed      -nan%
+ 155  CLFT165                  -nan%    passed      -nan%
+ 156  CLFT163                  -nan%    passed      -nan%
+ 157  CLFT166                  -nan%    passed      -nan%
+ 158  CLFT167                  -nan%    passed      -nan%
+ 159  CMT3                     -nan%    passed      -nan%
+ 160  CM21                     -nan%    passed      -nan%
+ 161  CM22                     -nan%    passed      -nan%
+ 162  CON2A_CH                 -nan%    passed      -nan%
+ 163  Campana                  -nan%    passed      -nan%
+ 164  CMT5                     -nan%    passed      -nan%
+ 165  CORN1                    -nan%    passed      -nan%
+ 166  CORN1B                   -nan%    passed      -nan%
+ 167  DB8.2                    -nan%    passed      -nan%
+ 168  Carter_Meadow            -nan%    passed      -nan%
+ 169  DB8_4                    -nan%    passed      -nan%
+ 170  ETH2_ET                  -nan%    passed      -nan%
+ 171  EV001                    -nan%    passed      -nan%
+ 172  ETH4_ET                  -nan%    passed      -nan%
+ 173  HER3_CH                  -nan%    passed      -nan%
+ 174  FG32                     -nan%    passed      -nan%
+ 175  HR1                      -nan%    passed      -nan%
+ 176  Hung_2039                -nan%    passed      -nan%
+ 177  Hung_2014                -nan%    passed      -nan%
+ 178  IA042_Highly_passaged    -nan%    passed      -nan%
+ 179  Hung_2044                -nan%    passed      -nan%
+ 180  IA_11                    -nan%    passed      -nan%
+ 181  FG184                    -nan%    passed      -nan%
+ 182  IA043_cryo               -nan%    passed      -nan%
+ 183  IA_12No1                 -nan%    passed      -nan%
+ 184  IA_12No4                 -nan%    passed      -nan%
+ 185  IA_12No12                -nan%    passed      -nan%
+ 186  IA_12No5                 -nan%    passed      -nan%
+ 187  IA_12No3                 -nan%    passed      -nan%
+ 188  HR5                      -nan%    passed      -nan%
+ 189  IA042_Low_passage        -nan%    passed      -nan%
+ 190  IA12                     -nan%    passed      -nan%
+ 191  HYATT                    -nan%    passed      -nan%
+ 192  IA_12No8                 -nan%    passed      -nan%
+ 193  IA_12No10                -nan%    passed      -nan%
+ 194  IA_12No9                 -nan%    passed      -nan%
+ 195  IA_13No1                 -nan%    passed      -nan%
+ 196  IA_13No12                -nan%    passed      -nan%
+ 197  IA_13No13_60             -nan%    passed      -nan%
+ 198  IA_13No13_48             -nan%    passed      -nan%
+ 199  IA_13No17                -nan%    passed      -nan%
+ 200  IA_13No6                 -nan%    passed      -nan%
+ 201  IA_13No8                 -nan%    passed      -nan%
+ 202  JEL240                   -nan%    passed      -nan%
+ 203  JEL267                   -nan%    passed      -nan%
+ 204  JEL261                   -nan%    passed      -nan%
+ 205  JEL271                   -nan%    passed      -nan%
+ 206  JEL270                   -nan%    passed      -nan%
+ 207  JEL310                   -nan%    passed      -nan%
+ 208  JEL289                   -nan%    passed      -nan%
+ 209  JEL275                   -nan%    passed      -nan%
+ 210  JEL238                   -nan%    passed      -nan%
+ 211  JEL274                   -nan%    passed      -nan%
+ 212  JEL359                   -nan%    passed      -nan%
+ 213  JEL410                   -nan%    passed      -nan%
+ 214  JEL413                   -nan%    passed      -nan%
+ 215  JEL412                   -nan%    passed      -nan%
+ 216  JEL408                   -nan%    passed      -nan%
+ 217  JEL423                   -nan%    passed      -nan%
+ 218  JEL423_PA                -nan%    passed      -nan%
+ 219  JEL427                   -nan%    passed      -nan%
+ 220  JEL427_P17               -nan%    passed      -nan%
+ 221  JEL427_P39               -nan%    passed      -nan%
+ 222  JEL427_P9                -nan%    passed      -nan%
+ 223  JEL433                   -nan%    passed      -nan%
+ 224  JEL429                   -nan%    passed      -nan%
+ 225  JEL627                   -nan%    passed      -nan%
+ 226  KB108                    -nan%    passed      -nan%
+ 227  KB45                     -nan%    passed      -nan%
+ 228  KB347                    -nan%    passed      -nan%
+ 229  KB72                     -nan%    passed      -nan%
+ 230  KB23                     -nan%    passed      -nan%
+ 231  KRBOOR_317               -nan%    passed      -nan%
+ 232  KBO_319                  -nan%    passed      -nan%
+ 233  KBO_327                  -nan%    passed      -nan%
+ 234  KBO_317                  -nan%    passed      -nan%
+ 235  L2203                    -nan%    passed      -nan%
+ 236  KRBOOR_331               -nan%    passed      -nan%
+ 237  KRBOOR_323               -nan%    passed      -nan%
+ 238  LBAbercrom               -nan%    passed      -nan%
+ 239  LFT001_10                -nan%    passed      -nan%
+ 240  LHURS8_CH                -nan%    passed      -nan%
+ 241  LHURS_11No1              -nan%    passed      -nan%
+ 242  LHURS_11No11             -nan%    passed      -nan%
+ 243  LHURS_11No7              -nan%    passed      -nan%
+ 244  LHURS_11No8              -nan%    passed      -nan%
+ 245  LM2                      -nan%    passed      -nan%
+ 246  Lhurs_13No13             -nan%    passed      -nan%
+ 247  Lhurs_13No11             -nan%    passed      -nan%
+ 248  Lhurs_13No14             -nan%    passed      -nan%
+ 249  Lhurs_13No2              -nan%    passed      -nan%
+ 250  MC58                     -nan%    passed      -nan%
+ 251  Lhurs_13No4              -nan%    passed      -nan%
+ 252  MAL05_GB                 -nan%    passed      -nan%
+ 253  MG1_ZA                   -nan%    passed      -nan%
+ 254  MAD_FR                   -nan%    passed      -nan%
+ 255  MCT8                     -nan%    passed      -nan%
+ 256  MLA1                     -nan%    passed      -nan%
+ 257  MG4_ZA                   -nan%    passed      -nan%
+ 258  MC94                     -nan%    passed      -nan%
+ 259  NBRC_106979              -nan%    passed      -nan%
+ 260  MODS28_IT                -nan%    passed      -nan%
+ 261  MexMkt                   -nan%    passed      -nan%
+ 262  NTA6                     -nan%    passed      -nan%
+ 263  PENNEWT                  -nan%    passed      -nan%
+ 264  MODS27_IT                -nan%    passed      -nan%
+ 265  PENS_2.4                 -nan%    passed      -nan%
+ 266  PNP15150                 -nan%    passed      -nan%
+ 267  PENS_9.2                 -nan%    passed      -nan%
+ 268  PNP15152                 -nan%    passed      -nan%
+ 269  PNP15153                 -nan%    passed      -nan%
+ 270  PUITS_11                 -nan%    passed      -nan%
+ 271  PNP15156                 -nan%    passed      -nan%
+ 272  PUITS_12No3              -nan%    passed      -nan%
+ 273  PUITS_12No5              -nan%    passed      -nan%
+ 274  PUITS_12No4              -nan%    passed      -nan%
+ 275  PUITS_12No7              -nan%    passed      -nan%
+ 276  PUITS_12No8              -nan%    passed      -nan%
+ 277  RioMaria                 -nan%    passed      -nan%
+ 278  RC4                      -nan%    passed      -nan%
+ 279  RAS3_CH                  -nan%    passed      -nan%
+ 280  RC5.1                    -nan%    passed      -nan%
+ 281  RC5.1_FR                 -nan%    passed      -nan%
+ 282  SA152                    -nan%    passed      -nan%
+ 283  SA186                    -nan%    passed      -nan%
+ 284  SA1d_ZA                  -nan%    passed      -nan%
+ 285  SA211                    -nan%    passed      -nan%
+ 286  SA190                    -nan%    passed      -nan%
+ 287  SA243                    -nan%    passed      -nan%
+ 288  SA280                    -nan%    passed      -nan%
+ 289  SA266                    -nan%    passed      -nan%
+ 290  SA286                    -nan%    passed      -nan%
+ 291  SA3e                     -nan%    passed      -nan%
+ 292  SA499                    -nan%    passed      -nan%
+ 293  SA4c_ZA                  -nan%    passed      -nan%
+ 294  SA523                    -nan%    passed      -nan%
+ 295  SA546                    -nan%    passed      -nan%
+ 296  SA6e                     -nan%    passed      -nan%
+ 297  SA5c                     -nan%    passed      -nan%
+ 298  SA_EC1                   -nan%    passed      -nan%
+ 299  SA_EC5                   -nan%    passed      -nan%
+ 300  SA_EC3                   -nan%    passed      -nan%
+ 301  SA_KN1                   -nan%    passed      -nan%
+ 302  SA_EC6                   -nan%    passed      -nan%
+ 303  SA_KN4                   -nan%    passed      -nan%
+ 304  SA_FS1                   -nan%    passed      -nan%
+ 305  SA_EC7                   -nan%    passed      -nan%
+ 306  SA_KN3                   -nan%    passed      -nan%
+ 307  SA_KN5                   -nan%    passed      -nan%
+ 308  SA_KN6                   -nan%    passed      -nan%
+ 309  SA_NC3                   -nan%    passed      -nan%
+ 310  SA_NC10                  -nan%    passed      -nan%
+ 311  SA_NC1                   -nan%    passed      -nan%
+ 312  SA_NC2                   -nan%    passed      -nan%
+ 313  SA_NC4                   -nan%    passed      -nan%
+ 314  SA_NC5                   -nan%    passed      -nan%
+ 315  SA_NC7                   -nan%    passed      -nan%
+ 316  SA_NC6                   -nan%    passed      -nan%
+ 317  SA_NC8                   -nan%    passed      -nan%
+ 318  SA_NC9                   -nan%    passed      -nan%
+ 319  SCH_CH                   -nan%    passed      -nan%
+ 320  STR3_CH                  -nan%    passed      -nan%
+ 321  SP10_IT                  -nan%    passed      -nan%
+ 322  SFBC014_GB               -nan%    passed      -nan%
+ 323  SWED_40.5.04             -nan%    passed      -nan%
+ 324  SRS812                   -nan%    passed      -nan%
+ 325  SWED_40.5.13             -nan%    passed      -nan%
+ 326  SWED_40.5.14             -nan%    passed      -nan%
+ 327  SWED_40.5.22             -nan%    passed      -nan%
+ 328  SWED_40.5.17             -nan%    passed      -nan%
+ 329  SWISS_IT1                -nan%    passed      -nan%
+ 330  Section_Line             -nan%    passed      -nan%
+ 331  TER_1.1                  -nan%    passed      -nan%
+ 332  TF5a1_ES                 -nan%    passed      -nan%
+ 333  TER_3.1                  -nan%    passed      -nan%
+ 334  Sora                     -nan%    passed      -nan%
+ 335  TER_4.2                  -nan%    passed      -nan%
+ 336  TORO1_ES                 -nan%    passed      -nan%
+ 337  TRBOMB                   -nan%    passed      -nan%
+ 338  TRGSCM.12-CAE2           -nan%    passed      -nan%
+ 339  TW16_050                 -nan%    passed      -nan%
+ 340  TST75                    -nan%    passed      -nan%
+ 341  TW16_206                 -nan%    passed      -nan%
+ 342  TW16_280                 -nan%    passed      -nan%
+ 343  TW16_164                 -nan%    passed      -nan%
+ 344  TW16_279                 -nan%    passed      -nan%
+ 345  TW16_293                 -nan%    passed      -nan%
+ 346  TW16_292                 -nan%    passed      -nan%
+ 347  TW16_295                 -nan%    passed      -nan%
+ 348  TW16_304                 -nan%    passed      -nan%
+ 349  UKBEL                    -nan%    passed      -nan%
+ 350  UKMAB                    -nan%    passed      -nan%
+ 351  UKBER                    -nan%    passed      -nan%
+ 352  UM721                    -nan%    passed      -nan%
+ 353  VA02                     -nan%    passed      -nan%
+ 354  UM142                    -nan%    passed      -nan%
+ 355  UKTVB                    -nan%    passed      -nan%
+ 356  TW16_519                 -nan%    passed      -nan%
+ 357  VOR3_CH                  -nan%    passed      -nan%
+ 358  picosAo1                 -nan%    passed      -nan%
+ 359  VC1_CA                   -nan%    passed      -nan%
+****  TOTAL                    -nan%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+WARNING: Sequence BdJEL423-REF contains only gaps or missing data
+WARNING: Sequence 02.OZ contains only gaps or missing data
+WARNING: Sequence 03.OZ contains only gaps or missing data
+WARNING: Sequence 06.OZ contains only gaps or missing data
+WARNING: Sequence 07.OZ contains only gaps or missing data
+WARNING: Sequence 0710_1 contains only gaps or missing data
+WARNING: Sequence 0711.1 contains only gaps or missing data
+WARNING: Sequence 11.OZ contains only gaps or missing data
+WARNING: Sequence 0739 contains only gaps or missing data
+WARNING: Sequence 09.OZ contains only gaps or missing data
+WARNING: Sequence 08MG05 contains only gaps or missing data
+WARNING: Sequence 12.OZ contains only gaps or missing data
+WARNING: Sequence 18.OZ contains only gaps or missing data
+WARNING: Sequence 08MG02 contains only gaps or missing data
+WARNING: Sequence 20.OZ contains only gaps or missing data
+WARNING: Sequence 13.OZ contains only gaps or missing data
+WARNING: Sequence 15.OZ contains only gaps or missing data
+WARNING: Sequence 25.OZ contains only gaps or missing data
+WARNING: Sequence 14.OZ contains only gaps or missing data
+WARNING: Sequence 23.OZ contains only gaps or missing data
+WARNING: Sequence 22.OZ contains only gaps or missing data
+WARNING: Sequence 24.OZ contains only gaps or missing data
+WARNING: Sequence 28.OZ contains only gaps or missing data
+WARNING: Sequence 16.OZ contains only gaps or missing data
+WARNING: Sequence 30.OZ contains only gaps or missing data
+WARNING: Sequence 33.OZ contains only gaps or missing data
+WARNING: Sequence 34.OZ contains only gaps or missing data
+WARNING: Sequence 35.OZ contains only gaps or missing data
+WARNING: Sequence 37.OZ contains only gaps or missing data
+WARNING: Sequence 36.OZ contains only gaps or missing data
+WARNING: Sequence 38.OZ contains only gaps or missing data
+WARNING: Sequence 41.OZ contains only gaps or missing data
+WARNING: Sequence 42.OZ contains only gaps or missing data
+WARNING: Sequence 40.OZ contains only gaps or missing data
+WARNING: Sequence 39.OZ contains only gaps or missing data
+WARNING: Sequence 45.OZ contains only gaps or missing data
+WARNING: Sequence 43.OZ contains only gaps or missing data
+WARNING: Sequence 44.OZ contains only gaps or missing data
+WARNING: Sequence 49.OZ contains only gaps or missing data
+WARNING: Sequence 47.OZ contains only gaps or missing data
+WARNING: Sequence ANS_13No10 contains only gaps or missing data
+WARNING: Sequence ANS_13No12 contains only gaps or missing data
+WARNING: Sequence ANS_13No7 contains only gaps or missing data
+WARNING: Sequence ACON_CH contains only gaps or missing data
+WARNING: Sequence AP15_IT contains only gaps or missing data
+WARNING: Sequence 46.OZ contains only gaps or missing data
+WARNING: Sequence ADMALA contains only gaps or missing data
+WARNING: Sequence ANS_13No1 contains only gaps or missing data
+WARNING: Sequence ANS_13No4 contains only gaps or missing data
+WARNING: Sequence APEP_CH contains only gaps or missing data
+WARNING: Sequence AVS2 contains only gaps or missing data
+WARNING: Sequence AVS4 contains only gaps or missing data
+WARNING: Sequence Acherito.4.1_15 contains only gaps or missing data
+WARNING: Sequence Acherito.c_15 contains only gaps or missing data
+WARNING: Sequence Acherito.1.2_15 contains only gaps or missing data
+WARNING: Sequence AUL_FR contains only gaps or missing data
+WARNING: Sequence AVS7 contains only gaps or missing data
+WARNING: Sequence Acherito.3.1_15 contains only gaps or missing data
+WARNING: Sequence Acherito.5.2_15 contains only gaps or missing data
+WARNING: Sequence Ansabere.6.1_15 contains only gaps or missing data
+WARNING: Sequence AoCH15_B contains only gaps or missing data
+WARNING: Sequence Acherito.d_15 contains only gaps or missing data
+WARNING: Sequence Arlet.K_15 contains only gaps or missing data
+WARNING: Sequence BAV_BRUCH_1 contains only gaps or missing data
+WARNING: Sequence Arlet.a_15 contains only gaps or missing data
+WARNING: Sequence Arlet_13No6 contains only gaps or missing data
+WARNING: Sequence Arlet_13No1 contains only gaps or missing data
+WARNING: Sequence Arlet_13No4 contains only gaps or missing data
+WARNING: Sequence BAV_OBER_2 contains only gaps or missing data
+WARNING: Sequence BAV_OBER_1 contains only gaps or missing data
+WARNING: Sequence Arlet_13No8 contains only gaps or missing data
+WARNING: Sequence Arlet_13No2 contains only gaps or missing data
+WARNING: Sequence BAV_OBER_3 contains only gaps or missing data
+WARNING: Sequence BEW2_CH contains only gaps or missing data
+WARNING: Sequence BLI1_CH contains only gaps or missing data
+WARNING: Sequence BdBE1 contains only gaps or missing data
+WARNING: Sequence BdBE5 contains only gaps or missing data
+WARNING: Sequence BdBE3 contains only gaps or missing data
+WARNING: Sequence BdNL1 contains only gaps or missing data
+WARNING: Sequence BdBE4 contains only gaps or missing data
+WARNING: Sequence BdBE6 contains only gaps or missing data
+WARNING: Sequence BdBE2 contains only gaps or missing data
+WARNING: Sequence BR1_CH contains only gaps or missing data
+WARNING: Sequence Bd_Aus1 contains only gaps or missing data
+WARNING: Sequence Bd_Aus2 contains only gaps or missing data
+WARNING: Sequence Bd_Aus3 contains only gaps or missing data
+WARNING: Sequence Bd_Aus6 contains only gaps or missing data
+WARNING: Sequence Bd_Aus8 contains only gaps or missing data
+WARNING: Sequence Bd_Aus4 contains only gaps or missing data
+WARNING: Sequence Bd_Aus5 contains only gaps or missing data
+WARNING: Sequence Bd_JEL253 contains only gaps or missing data
+WARNING: Sequence CCB15 contains only gaps or missing data
+WARNING: Sequence Bd_Aus9 contains only gaps or missing data
+WARNING: Sequence CAE2 contains only gaps or missing data
+WARNING: Sequence CH4_CH contains only gaps or missing data
+WARNING: Sequence Bd_RTP5 contains only gaps or missing data
+WARNING: Sequence CCB1 contains only gaps or missing data
+WARNING: Sequence CHAL3_CH contains only gaps or missing data
+WARNING: Sequence CJB4 contains only gaps or missing data
+WARNING: Sequence CJB7 contains only gaps or missing data
+WARNING: Sequence CJB5 contains only gaps or missing data
+WARNING: Sequence CLFT001 contains only gaps or missing data
+WARNING: Sequence CLFT021 contains only gaps or missing data
+WARNING: Sequence CLFT024 contains only gaps or missing data
+WARNING: Sequence CLFT023 contains only gaps or missing data
+WARNING: Sequence CLFT026 contains only gaps or missing data
+WARNING: Sequence CLFT037 contains only gaps or missing data
+WARNING: Sequence CLFT024-02 contains only gaps or missing data
+WARNING: Sequence CLFT061 contains only gaps or missing data
+WARNING: Sequence CLFT044 contains only gaps or missing data
+WARNING: Sequence CLFT048 contains only gaps or missing data
+WARNING: Sequence CLFT043 contains only gaps or missing data
+WARNING: Sequence CLFT062 contains only gaps or missing data
+WARNING: Sequence CLFT060 contains only gaps or missing data
+WARNING: Sequence CLFT065 contains only gaps or missing data
+WARNING: Sequence CLFT039 contains only gaps or missing data
+WARNING: Sequence CLFT063 contains only gaps or missing data
+WARNING: Sequence CLFT045 contains only gaps or missing data
+WARNING: Sequence CLFT067 contains only gaps or missing data
+WARNING: Sequence CLFT068 contains only gaps or missing data
+WARNING: Sequence CLFT070 contains only gaps or missing data
+WARNING: Sequence CLFT071 contains only gaps or missing data
+WARNING: Sequence CLFT085 contains only gaps or missing data
+WARNING: Sequence CLFT073 contains only gaps or missing data
+WARNING: Sequence CLFT082 contains only gaps or missing data
+WARNING: Sequence CLFT075 contains only gaps or missing data
+WARNING: Sequence CLFT078 contains only gaps or missing data
+WARNING: Sequence CLFT080 contains only gaps or missing data
+WARNING: Sequence CLFT095 contains only gaps or missing data
+WARNING: Sequence CLFT086 contains only gaps or missing data
+WARNING: Sequence CLFT088 contains only gaps or missing data
+WARNING: Sequence CLFT097 contains only gaps or missing data
+WARNING: Sequence CLFT100 contains only gaps or missing data
+WARNING: Sequence CLFT101 contains only gaps or missing data
+WARNING: Sequence CLFT120 contains only gaps or missing data
+WARNING: Sequence CLFT107 contains only gaps or missing data
+WARNING: Sequence CLFT111 contains only gaps or missing data
+WARNING: Sequence CLFT114 contains only gaps or missing data
+WARNING: Sequence CLFT129 contains only gaps or missing data
+WARNING: Sequence CLFT130 contains only gaps or missing data
+WARNING: Sequence CLFT132 contains only gaps or missing data
+WARNING: Sequence CLFT123 contains only gaps or missing data
+WARNING: Sequence CLFT131 contains only gaps or missing data
+WARNING: Sequence CLFT126 contains only gaps or missing data
+WARNING: Sequence CLFT133 contains only gaps or missing data
+WARNING: Sequence CLFT136 contains only gaps or missing data
+WARNING: Sequence CLFT138 contains only gaps or missing data
+WARNING: Sequence CLFT152 contains only gaps or missing data
+WARNING: Sequence CLFT144 contains only gaps or missing data
+WARNING: Sequence CLFT148 contains only gaps or missing data
+WARNING: Sequence CLFT139 contains only gaps or missing data
+WARNING: Sequence CLFT157 contains only gaps or missing data
+WARNING: Sequence CLFT156 contains only gaps or missing data
+WARNING: Sequence CLFT160 contains only gaps or missing data
+WARNING: Sequence CLFT165 contains only gaps or missing data
+WARNING: Sequence CLFT163 contains only gaps or missing data
+WARNING: Sequence CLFT166 contains only gaps or missing data
+WARNING: Sequence CLFT167 contains only gaps or missing data
+WARNING: Sequence CMT3 contains only gaps or missing data
+WARNING: Sequence CM21 contains only gaps or missing data
+WARNING: Sequence CM22 contains only gaps or missing data
+WARNING: Sequence CON2A_CH contains only gaps or missing data
+WARNING: Sequence Campana contains only gaps or missing data
+WARNING: Sequence CMT5 contains only gaps or missing data
+WARNING: Sequence CORN1 contains only gaps or missing data
+WARNING: Sequence CORN1B contains only gaps or missing data
+WARNING: Sequence DB8.2 contains only gaps or missing data
+WARNING: Sequence Carter_Meadow contains only gaps or missing data
+WARNING: Sequence DB8_4 contains only gaps or missing data
+WARNING: Sequence ETH2_ET contains only gaps or missing data
+WARNING: Sequence EV001 contains only gaps or missing data
+WARNING: Sequence ETH4_ET contains only gaps or missing data
+WARNING: Sequence HER3_CH contains only gaps or missing data
+WARNING: Sequence FG32 contains only gaps or missing data
+WARNING: Sequence HR1 contains only gaps or missing data
+WARNING: Sequence Hung_2039 contains only gaps or missing data
+WARNING: Sequence Hung_2014 contains only gaps or missing data
+WARNING: Sequence IA042_Highly_passaged contains only gaps or missing data
+WARNING: Sequence Hung_2044 contains only gaps or missing data
+WARNING: Sequence IA_11 contains only gaps or missing data
+WARNING: Sequence FG184 contains only gaps or missing data
+WARNING: Sequence IA043_cryo contains only gaps or missing data
+WARNING: Sequence IA_12No1 contains only gaps or missing data
+WARNING: Sequence IA_12No4 contains only gaps or missing data
+WARNING: Sequence IA_12No12 contains only gaps or missing data
+WARNING: Sequence IA_12No5 contains only gaps or missing data
+WARNING: Sequence IA_12No3 contains only gaps or missing data
+WARNING: Sequence HR5 contains only gaps or missing data
+WARNING: Sequence IA042_Low_passage contains only gaps or missing data
+WARNING: Sequence IA12 contains only gaps or missing data
+WARNING: Sequence HYATT contains only gaps or missing data
+WARNING: Sequence IA_12No8 contains only gaps or missing data
+WARNING: Sequence IA_12No10 contains only gaps or missing data
+WARNING: Sequence IA_12No9 contains only gaps or missing data
+WARNING: Sequence IA_13No1 contains only gaps or missing data
+WARNING: Sequence IA_13No12 contains only gaps or missing data
+WARNING: Sequence IA_13No13_60 contains only gaps or missing data
+WARNING: Sequence IA_13No13_48 contains only gaps or missing data
+WARNING: Sequence IA_13No17 contains only gaps or missing data
+WARNING: Sequence IA_13No6 contains only gaps or missing data
+WARNING: Sequence IA_13No8 contains only gaps or missing data
+WARNING: Sequence JEL240 contains only gaps or missing data
+WARNING: Sequence JEL267 contains only gaps or missing data
+WARNING: Sequence JEL261 contains only gaps or missing data
+WARNING: Sequence JEL271 contains only gaps or missing data
+WARNING: Sequence JEL270 contains only gaps or missing data
+WARNING: Sequence JEL310 contains only gaps or missing data
+WARNING: Sequence JEL289 contains only gaps or missing data
+WARNING: Sequence JEL275 contains only gaps or missing data
+WARNING: Sequence JEL238 contains only gaps or missing data
+WARNING: Sequence JEL274 contains only gaps or missing data
+WARNING: Sequence JEL359 contains only gaps or missing data
+WARNING: Sequence JEL410 contains only gaps or missing data
+WARNING: Sequence JEL413 contains only gaps or missing data
+WARNING: Sequence JEL412 contains only gaps or missing data
+WARNING: Sequence JEL408 contains only gaps or missing data
+WARNING: Sequence JEL423 contains only gaps or missing data
+WARNING: Sequence JEL423_PA contains only gaps or missing data
+WARNING: Sequence JEL427 contains only gaps or missing data
+WARNING: Sequence JEL427_P17 contains only gaps or missing data
+WARNING: Sequence JEL427_P39 contains only gaps or missing data
+WARNING: Sequence JEL427_P9 contains only gaps or missing data
+WARNING: Sequence JEL433 contains only gaps or missing data
+WARNING: Sequence JEL429 contains only gaps or missing data
+WARNING: Sequence JEL627 contains only gaps or missing data
+WARNING: Sequence KB108 contains only gaps or missing data
+WARNING: Sequence KB45 contains only gaps or missing data
+WARNING: Sequence KB347 contains only gaps or missing data
+WARNING: Sequence KB72 contains only gaps or missing data
+WARNING: Sequence KB23 contains only gaps or missing data
+WARNING: Sequence KRBOOR_317 contains only gaps or missing data
+WARNING: Sequence KBO_319 contains only gaps or missing data
+WARNING: Sequence KBO_327 contains only gaps or missing data
+WARNING: Sequence KBO_317 contains only gaps or missing data
+WARNING: Sequence L2203 contains only gaps or missing data
+WARNING: Sequence KRBOOR_331 contains only gaps or missing data
+WARNING: Sequence KRBOOR_323 contains only gaps or missing data
+WARNING: Sequence LBAbercrom contains only gaps or missing data
+WARNING: Sequence LFT001_10 contains only gaps or missing data
+WARNING: Sequence LHURS8_CH contains only gaps or missing data
+WARNING: Sequence LHURS_11No1 contains only gaps or missing data
+WARNING: Sequence LHURS_11No11 contains only gaps or missing data
+WARNING: Sequence LHURS_11No7 contains only gaps or missing data
+WARNING: Sequence LHURS_11No8 contains only gaps or missing data
+WARNING: Sequence LM2 contains only gaps or missing data
+WARNING: Sequence Lhurs_13No13 contains only gaps or missing data
+WARNING: Sequence Lhurs_13No11 contains only gaps or missing data
+WARNING: Sequence Lhurs_13No14 contains only gaps or missing data
+WARNING: Sequence Lhurs_13No2 contains only gaps or missing data
+WARNING: Sequence MC58 contains only gaps or missing data
+WARNING: Sequence Lhurs_13No4 contains only gaps or missing data
+WARNING: Sequence MAL05_GB contains only gaps or missing data
+WARNING: Sequence MG1_ZA contains only gaps or missing data
+WARNING: Sequence MAD_FR contains only gaps or missing data
+WARNING: Sequence MCT8 contains only gaps or missing data
+WARNING: Sequence MLA1 contains only gaps or missing data
+WARNING: Sequence MG4_ZA contains only gaps or missing data
+WARNING: Sequence MC94 contains only gaps or missing data
+WARNING: Sequence NBRC_106979 contains only gaps or missing data
+WARNING: Sequence MODS28_IT contains only gaps or missing data
+WARNING: Sequence MexMkt contains only gaps or missing data
+WARNING: Sequence NTA6 contains only gaps or missing data
+WARNING: Sequence PENNEWT contains only gaps or missing data
+WARNING: Sequence MODS27_IT contains only gaps or missing data
+WARNING: Sequence PENS_2.4 contains only gaps or missing data
+WARNING: Sequence PNP15150 contains only gaps or missing data
+WARNING: Sequence PENS_9.2 contains only gaps or missing data
+WARNING: Sequence PNP15152 contains only gaps or missing data
+WARNING: Sequence PNP15153 contains only gaps or missing data
+WARNING: Sequence PUITS_11 contains only gaps or missing data
+WARNING: Sequence PNP15156 contains only gaps or missing data
+WARNING: Sequence PUITS_12No3 contains only gaps or missing data
+WARNING: Sequence PUITS_12No5 contains only gaps or missing data
+WARNING: Sequence PUITS_12No4 contains only gaps or missing data
+WARNING: Sequence PUITS_12No7 contains only gaps or missing data
+WARNING: Sequence PUITS_12No8 contains only gaps or missing data
+WARNING: Sequence RioMaria contains only gaps or missing data
+WARNING: Sequence RC4 contains only gaps or missing data
+WARNING: Sequence RAS3_CH contains only gaps or missing data
+WARNING: Sequence RC5.1 contains only gaps or missing data
+WARNING: Sequence RC5.1_FR contains only gaps or missing data
+WARNING: Sequence SA152 contains only gaps or missing data
+WARNING: Sequence SA186 contains only gaps or missing data
+WARNING: Sequence SA1d_ZA contains only gaps or missing data
+WARNING: Sequence SA211 contains only gaps or missing data
+WARNING: Sequence SA190 contains only gaps or missing data
+WARNING: Sequence SA243 contains only gaps or missing data
+WARNING: Sequence SA280 contains only gaps or missing data
+WARNING: Sequence SA266 contains only gaps or missing data
+WARNING: Sequence SA286 contains only gaps or missing data
+WARNING: Sequence SA3e contains only gaps or missing data
+WARNING: Sequence SA499 contains only gaps or missing data
+WARNING: Sequence SA4c_ZA contains only gaps or missing data
+WARNING: Sequence SA523 contains only gaps or missing data
+WARNING: Sequence SA546 contains only gaps or missing data
+WARNING: Sequence SA6e contains only gaps or missing data
+WARNING: Sequence SA5c contains only gaps or missing data
+WARNING: Sequence SA_EC1 contains only gaps or missing data
+WARNING: Sequence SA_EC5 contains only gaps or missing data
+WARNING: Sequence SA_EC3 contains only gaps or missing data
+WARNING: Sequence SA_KN1 contains only gaps or missing data
+WARNING: Sequence SA_EC6 contains only gaps or missing data
+WARNING: Sequence SA_KN4 contains only gaps or missing data
+WARNING: Sequence SA_FS1 contains only gaps or missing data
+WARNING: Sequence SA_EC7 contains only gaps or missing data
+WARNING: Sequence SA_KN3 contains only gaps or missing data
+WARNING: Sequence SA_KN5 contains only gaps or missing data
+WARNING: Sequence SA_KN6 contains only gaps or missing data
+WARNING: Sequence SA_NC3 contains only gaps or missing data
+WARNING: Sequence SA_NC10 contains only gaps or missing data
+WARNING: Sequence SA_NC1 contains only gaps or missing data
+WARNING: Sequence SA_NC2 contains only gaps or missing data
+WARNING: Sequence SA_NC4 contains only gaps or missing data
+WARNING: Sequence SA_NC5 contains only gaps or missing data
+WARNING: Sequence SA_NC7 contains only gaps or missing data
+WARNING: Sequence SA_NC6 contains only gaps or missing data
+WARNING: Sequence SA_NC8 contains only gaps or missing data
+WARNING: Sequence SA_NC9 contains only gaps or missing data
+WARNING: Sequence SCH_CH contains only gaps or missing data
+WARNING: Sequence STR3_CH contains only gaps or missing data
+WARNING: Sequence SP10_IT contains only gaps or missing data
+WARNING: Sequence SFBC014_GB contains only gaps or missing data
+WARNING: Sequence SWED_40.5.04 contains only gaps or missing data
+WARNING: Sequence SRS812 contains only gaps or missing data
+WARNING: Sequence SWED_40.5.13 contains only gaps or missing data
+WARNING: Sequence SWED_40.5.14 contains only gaps or missing data
+WARNING: Sequence SWED_40.5.22 contains only gaps or missing data
+WARNING: Sequence SWED_40.5.17 contains only gaps or missing data
+WARNING: Sequence SWISS_IT1 contains only gaps or missing data
+WARNING: Sequence Section_Line contains only gaps or missing data
+WARNING: Sequence TER_1.1 contains only gaps or missing data
+WARNING: Sequence TF5a1_ES contains only gaps or missing data
+WARNING: Sequence TER_3.1 contains only gaps or missing data
+WARNING: Sequence Sora contains only gaps or missing data
+WARNING: Sequence TER_4.2 contains only gaps or missing data
+WARNING: Sequence TORO1_ES contains only gaps or missing data
+WARNING: Sequence TRBOMB contains only gaps or missing data
+WARNING: Sequence TRGSCM.12-CAE2 contains only gaps or missing data
+WARNING: Sequence TW16_050 contains only gaps or missing data
+WARNING: Sequence TST75 contains only gaps or missing data
+WARNING: Sequence TW16_206 contains only gaps or missing data
+WARNING: Sequence TW16_280 contains only gaps or missing data
+WARNING: Sequence TW16_164 contains only gaps or missing data
+WARNING: Sequence TW16_279 contains only gaps or missing data
+WARNING: Sequence TW16_293 contains only gaps or missing data
+WARNING: Sequence TW16_292 contains only gaps or missing data
+WARNING: Sequence TW16_295 contains only gaps or missing data
+WARNING: Sequence TW16_304 contains only gaps or missing data
+WARNING: Sequence UKBEL contains only gaps or missing data
+WARNING: Sequence UKMAB contains only gaps or missing data
+WARNING: Sequence UKBER contains only gaps or missing data
+WARNING: Sequence UM721 contains only gaps or missing data
+WARNING: Sequence VA02 contains only gaps or missing data
+WARNING: Sequence UM142 contains only gaps or missing data
+WARNING: Sequence UKTVB contains only gaps or missing data
+WARNING: Sequence TW16_519 contains only gaps or missing data
+WARNING: Sequence VOR3_CH contains only gaps or missing data
+WARNING: Sequence picosAo1 contains only gaps or missing data
+WARNING: Sequence VC1_CA contains only gaps or missing data
+ERROR: Some sequences (see above) are problematic, please check your alignment again
