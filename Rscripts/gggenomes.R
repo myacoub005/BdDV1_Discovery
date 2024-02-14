@@ -1,6 +1,6 @@
 # install.packages("devtools")
-devtools::install_github("thackl/thacklr")
-devtools::install_github("thackl/gggenomes")
+#devtools::install_github("thackl/thacklr")
+#devtools::install_github("thackl/gggenomes")
 
 library(tidyverse)
 library(gggenomes)
@@ -9,6 +9,8 @@ library(ggplot2)
 library(gggenes)
 library(ggfittext)
 library(nationalparkcolors)
+
+setwd("./results_for_plots/Integration")
 
 #load in files, I subset to one scaffold before hand 
 seq <- read_seqs("contig_138.fa") #fasta file

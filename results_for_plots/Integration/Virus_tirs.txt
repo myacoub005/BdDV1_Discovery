@@ -1,0 +1,2 @@
+seq_id	length	start	end	strand	seq_id2	length2	start2	end2
+CLFT044	975555	21199	25587	-	BdDV1	4405	8	4398

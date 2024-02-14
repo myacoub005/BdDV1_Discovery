@@ -15,6 +15,7 @@ library(patchwork)
 library("ggplotify")
 library("grid")
 
+setwd("results_for_plots/Viral_Presence")
 
 geneCopies <- read.table("virus_average_cov.txt", header=TRUE, sep="\t", row.names = NULL)
 geneCopies

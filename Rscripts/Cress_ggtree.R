@@ -1,4 +1,6 @@
-####This script will be for visualizing GAG presence across fungi ####
+####This script will be for depicting phylogeny of BdDV-1 ####
+
+setwd("./results_for_plots/CRESS_Phylogeny")
 
 rm(list=ls())
 install.packages("ggrepel")
@@ -19,7 +21,7 @@ geneCopies <- read.table("CRESS_metadata.tab", header=TRUE, sep="\t", row.names 
 geneCopies
 tip_metadata
 
-tree <- read.tree("Cress.tree")
+tree <- read.tree("CRESS_tree3-2.txt")
 tipnames <- tree$tip.label
 tipnames
 to_drop <- setdiff(tree$tip.label, rownames(geneCopies))

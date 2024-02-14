@@ -1,0 +1,6 @@
+Lineage	N	Percent_Virus+
+ASIA	N=8	100
+BRAZIL	N=18	39
+CAPE	N=21	95
+GPL	N=211	1
+Hybrid	N=6	50
